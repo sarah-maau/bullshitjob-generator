@@ -1,15 +1,28 @@
-<template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+<template v-if="this.jobTitle">
+    <h1 v-html="this.jobTitle"></h1>
+  <button @click="this.getJobTitle()">click</button>
+
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld,
+  data() {
+    return {
+      jobTitle: undefined,
+    };
+  },
+  created() {
+    this.getJobTitle();
+  },
+  methods: {
+    getJobTitle() {
+      this.jobTitle = undefined;
+      this.axios.get('https://bullshit-job-title-generator.herokuapp.com/api/bullshit').then((response) => {
+        this.jobTitle = response.data;
+      });
+    },
   },
 };
 </script>

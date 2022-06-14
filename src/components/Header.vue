@@ -6,7 +6,7 @@
       >
         <h1
         :style="'color:' + textColor + ';'"
-        class="header__title"> Bullshit Job Titles Generatoe</h1>
+        class="header__title"> Bullshit Job Titles Generator</h1>
       </div>
   </header>
 </template>

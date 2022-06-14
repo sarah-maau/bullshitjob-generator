@@ -1,11 +1,11 @@
 # bullshitjob-generator
 
-Cette application permet de visualiser les bullshit job titles générés depuis l'API [Bullshit Job Generator](https://bullshit-job-title-generator.herokuapp.com/api/bullshit), que j'ai moi-même codé il y a qques temps. Le repo est [ici](https://github.com/sarah-maau/api-bullshit-generator).
+Cette application permet de visualiser les bullshit job titles générés depuis l'API [Bullshit Job Generator](https://bullshit-job-title-generator.herokuapp.com/api/bullshit), que j'ai moi-même codé il y a quelques temps. Le repo est [ici](https://github.com/sarah-maau/api-bullshit-generator).
+
+Le site est accessible [ici](https://bullshit-job-titles-generator.surge.sh/).
 
 ## Réalisation
 Il s'agit de mon premier projet sur Vue3 js.
-
-
 
 ## Language et stacks
 - Javascript

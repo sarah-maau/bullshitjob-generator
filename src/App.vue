@@ -9,12 +9,11 @@
         >
       </h2>
       <div class="icon">
- <RefreshIcon
-        class="icon__refresh"
+        <RefreshIcon
+          class="icon__refresh"
           :style="'color:' + this.textColor + ';'"
           @click="this.getJobTitle(); this.changeColor()"
-        />
-
+      />
       </div>
     </div>
   </main>
